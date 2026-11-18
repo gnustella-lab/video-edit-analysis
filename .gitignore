@@ -1,22 +1,35 @@
 __pycache__/
 *.pyc
+.pytest_cache/
+.venv/
+venv/
 output/
 work/
-*.mp4
 *.log
 .DS_Store
 
-# Keep source footage and generated evidence out of the skill.
+# Optional local downloader binaries
+yt-dlp
+yt-dlp.exe
+
+# Keep source footage and generated evidence out of the repository
 review*/
 video_analysis/
+*.mp4
 *.mkv
 *.mov
 *.webm
 *.avi
 *.jpg
+*.jpeg
 *.png
 probe.json
 manifest.json
 scene_times.txt
 scene_detect_raw.txt
 analysis_results.json
+analysis_report.md
+
+# Always track reference and example JSON reports
+!examples/*.json
+!references/*.json

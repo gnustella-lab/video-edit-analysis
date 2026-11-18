@@ -1,0 +1,97 @@
+[
+  {
+    "section_summary": "Section 1, 0.0–40.0 s (end exclusive): wide two-shot and alternating medium singles establish the stage geometry while a persistent lower-left scoreboard graphic anchors 11 verified camera switches.",
+    "color_grading": "Observed across frame_0001 (frames/section_01/0001.jpg, 0.0 s) and frame_0007 (frames/section_01/0007.jpg, 20.4 s): high-contrast tungsten key light on the foreground performers against a cool cyan-tinted crowd backdrop, with crushed blacks in the stage rafters holding steady across A-cam and B-cam angles.",
+    "editing_techniques": [
+      "Persistent graphic anchor: the lower-left round indicator stays pixel-locked at identical screen coordinates across the A-cam wide in frame_0002 (frames/section_01/0002.jpg, 4.0 s) and the B-cam medium close-up in frame_0003 (frames/section_01/0003.jpg, 6.2 s), verified by comparing badge corner alignment on frames/section_01_sheet.jpg.",
+      "Setup-to-payoff framing progression: early bars hold on a balanced two-shot for 6.2 s (0.0–6.2 s) before isolating Performer A in tighter over-the-shoulder singles from 6.2 s to 28.5 s.",
+      "Short audience reaction insert: a 0.75 s cutaway at 28.5–29.25 s (frame_0010, frames/section_01/0010.jpg, 28.5 s) interrupts a 12.1 s vocal passage and returns cleanly to the same Performer A medium framing at 29.25 s (frame_0011, frames/section_01/0011.jpg)."
+    ],
+    "effects": [
+      "Subtle post-crop digital punch-in observed between 24.0 s and 24.5 s: background stage truss and Performer A scale uniformly by ~1.15x without perspective change in frame_0009 (frames/section_01/0009.jpg, 24.5 s), while the lower-left scoreboard badge does not scale, consistent with a transform applied below the graphic overlay layer."
+    ],
+    "transitions": [
+      "Hard cut at 6.20 s (frame_0003, frames/section_01/0003.jpg): verified via --sample-cuts with zero blended fields between the wide stage lock and B-cam single.",
+      "Two-frame additive white flash bridge at 19.88–19.96 s (inspected via detail_01_frame_0003 and detail_01_frame_0004 in frames/detail_01/0003.jpg and frames/detail_01/0004.jpg): full-frame luma spikes to near-clipping across two source frames while the corner scoreboard remains legible at full opacity on top, landing on C-cam in detail_01_frame_0005 (frames/detail_01/0005.jpg, 20.00 s)."
+    ],
+    "text_overlays": [
+      "Lower-left scoreboard bug ('ROUND 1' header with two neutral score counters) enters via a 6-frame horizontal wipe by 1.2 s and persists continuously through 40.0 s without opacity dips.",
+      "Center-lower identification banner appears from 1.5 s to 5.5 s (visible in frame_0002, frames/section_01/0002.jpg, 4.0 s) in bold white sans-serif over a semi-opaque charcoal bar, clearing before the first camera switch at 6.20 s."
+    ],
+    "visual_elements": [
+      "Strong 16:9 horizontal stage symmetry in frame_0001 (frames/section_01/0001.jpg, 0.0 s), with Performer A stage-left and Performer B stage-right framing the host at center.",
+      "Shallow depth of field on B-cam singles (frame_0006, frames/section_01/0006.jpg, 16.0 s) separates the active vocalist from soft-focus background spectators while preserving eyeline continuity left-to-right."
+    ],
+    "notable_frames": [
+      "frames/section_01/0001.jpg (frame_0001, 0.0 s): establishes baseline stage lighting, three-person spatial geography, and initial absence of overlays.",
+      "frames/section_01/0003.jpg (frame_0003, 6.2 s): first cut-sampled B-cam single confirming fixed scoreboard placement across camera angles.",
+      "frames/detail_01/0004.jpg (detail_01_frame_0004, 19.92 s): peak frame of the two-frame flash transition proving the corner scoreboard sits above the flash layer."
+    ],
+    "pacing_notes": "Moderate opening cadence: 11 verified cuts across 40.0 s (16.50 cuts/min, median shot length 3.40 s, min 0.75 s). Audio telemetry shows an a cappella spoken vocal track with no percussion backing (RMS -16.4 dB, one 0.42 s breath pause at 19.8 s preceding the 19.92 s flash transition); cuts align with vocal phrase endings rather than a musical beat grid."
+  },
+  {
+    "section_summary": "Section 2, 40.0–80.0 s (end exclusive): pacing accelerates into high-density punchline bursts combining axial camera punch-ins, rapid opponent reaction cutaways, and rhythmic kinetic emphasis captions.",
+    "color_grading": "Consistent stage balance across main cameras in frame_0013 (frames/section_02/0001.jpg, 40.0 s), interrupted deliberately at 58.40–59.60 s (frame_0019, frames/section_02/0007.jpg, 58.5 s) by a monochrome high-contrast desaturation treatment during an instant-replay repeat.",
+    "editing_techniques": [
+      "Axial punch-in stack: three consecutive hard scale steps (1.0x -> 1.14x -> 1.28x) over a single locked C-cam angle between 46.0 s and 47.2 s (frame_0015 at 46.0 s, frame_0016 at 46.6 s, frame_0017 at 47.1 s in frames/section_02/0003.jpg, frames/section_02/0004.jpg, and frames/section_02/0005.jpg), checked via unchanging nose-to-ear perspective and expanding background bokeh.",
+      "Echo-replay editorial repeat at 58.40–59.60 s: repeats the 57.20–58.40 s gesture from an alternate reverse angle in desaturated monochrome (frame_0019, frames/section_02/0007.jpg) while temporarily hiding the lower-left scoreboard bug to signal non-linear time.",
+      "Ping-pong reaction cluster (64.10–66.90 s): five rapid cuts alternating Performer A, Performer B's reaction, and wide crowd movement, overviewed on frames/section_02_sheet.jpg."
+    ],
+    "effects": [
+      "Directional horizontal motion blur accompanying whip-style lateral offset across two boundary frames at 51.96–52.04 s (detail_02_frame_0002, frames/detail_02/0002.jpg), consistent with either an in-camera whip pan or a post-slide transition.",
+      "Brief chromatic edge split along high-contrast microphone highlights during the monochrome replay window in frame_0019 (frames/section_02/0007.jpg, 58.5 s)."
+    ],
+    "transitions": [
+      "Hard cuts dominate 21 of 23 section boundaries, including the 64.10–66.90 s burst window verified against scene_times.txt.",
+      "Whip-blur bridge at 52.00 s (frames/detail_02/0002.jpg to frames/detail_02/0003.jpg): rightward smear links B-cam stage-left to A-cam stage-right.",
+      "Hard cut into and out of the desaturated replay insert at 58.40 s and 59.60 s (frame_0019 to frame_0020, frames/section_02/0008.jpg) without dissolves."
+    ],
+    "text_overlays": [
+      "Word-by-word kinetic emphasis captions appear only during the 46.0–47.5 s punch-in sequence (frames/section_02/0003.jpg through frames/section_02/0005.jpg), centered in lower-third yellow uppercase with heavy black stroke, scaling up 10% on entry.",
+      "Lower-left scoreboard bug holds steady except during the 58.40–59.60 s monochrome replay, returning cleanly at 59.60 s (frame_0020, frames/section_02/0008.jpg)."
+    ],
+    "visual_elements": [
+      "Tightening headroom across the 46.0–47.2 s axial punch-ins shifts Performer A's eyes above the upper-third line, amplifying confrontational proximity.",
+      "Handheld camera shake increases noticeably during crowd cutaways (frame_0022, frames/section_02/0010.jpg, 65.4 s) compared with gimbal/tripod-stabilized performer singles."
+    ],
+    "notable_frames": [
+      "frames/section_02/0003.jpg (frame_0015, 46.0 s): baseline 1.0x C-cam framing at the start of the three-step digital punch-in.",
+      "frames/section_02/0005.jpg (frame_0017, 47.1 s): 1.28x peak zoom frame with kinetic caption overlay and unchanged perspective geometry.",
+      "frames/section_02/0007.jpg (frame_0019, 58.5 s): desaturated reverse-angle replay frame where the persistent scoreboard bug is intentionally suppressed.",
+      "frames/section_02/0010.jpg (frame_0022, 65.4 s): mid-burst crowd cutaway inside the highest-density 2.80 s montage cluster."
+    ],
+    "pacing_notes": "Highest cut density of the piece: 23 verified cuts in 40.0 s (34.50 cuts/min, median shot length 1.45 s, min 0.42 s), featuring two manifest burst_windows at 46.00–47.50 s (3 cuts) and 64.10–66.90 s (5 cuts). Audio telemetry records RMS surging to -10.8 dB with peak vocal/crowd transients at 47.08 s and 64.12 s; the 46.0–47.1 s punch-ins step directly on three consecutive vocal accents, followed by a 2.1 s crowd-reaction hold."
+  },
+  {
+    "section_summary": "Section 3, 80.0–120.0 s (end exclusive): counter-verse opening resets to long unbroken holds before a percussive beat drop at 96.0 s shifts the edit to snare-locked two-camera alternation and an end-card lockup.",
+    "color_grading": "Warm amber rim light becomes prominent on Performer B's reverse angle in frame_0025 (frames/section_03/0001.jpg, 80.0 s), maintaining matching skin-tone exposure with Section 1 before a gradual -1.5 EV exposure dim across 116.0–120.0 s behind the end-screen graphic.",
+    "editing_techniques": [
+      "Deliberate pacing reset: an unbroken 16.0 s single-take gimbal push-in from 80.0 s to 96.0 s (frame_0025 at 80.0 s through frame_0028 at 92.0 s in frames/section_03/0001.jpg to frames/section_03/0004.jpg) contrasts with Section 2's rapid bursts; optical parallax between Performer B's shoulder and background stage lights confirms physical camera movement rather than a digital zoom.",
+      "Beat-locked alternation from 96.0 s to 112.0 s: 8 periodic hard cuts spaced consistently at ~2.00 s intervals (96.00, 98.02, 100.00, 102.01, 104.00, 106.00, 108.02, 110.00 s) alternating Performer B's delivery with two-shot stage framing.",
+      "Split-screen summary lockup (114.5–120.0 s): frame_0035 (frames/section_03/0011.jpg, 116.0 s) places frozen portrait crops of Performer A and Performer B into left/right vertical panels over a darkened background loop."
+    ],
+    "effects": [
+      "Background Gaussian-style defocus and -1.5 EV luminance drop activate at 114.5 s (frame_0035, frames/section_03/0011.jpg) beneath crisp vector end-card panels."
+    ],
+    "transitions": [
+      "Hard cut at 96.00 s (frame_0029, frames/section_03/0005.jpg) ends the 16.0 s opening gimbal hold precisely on the incoming instrumental downbeat.",
+      "Eight hard cuts across 96.00–110.00 s verified with zero flash frames or dissolves.",
+      "12-frame cross-dissolve from 114.00 s to 114.50 s transitioning from the live stage wide into the dimmed split-screen voting/summary end card, ending on a fade-to-black over the final 0.5 s (119.5–120.0 s)."
+    ],
+    "text_overlays": [
+      "Lower-left scoreboard bug updates from 'ROUND 1' to 'ROUND 1 — COUNTER' via a quick text swap at 80.4 s and clears cleanly at 114.0 s ahead of the end-card dissolve.",
+      "End-card graphic (114.5–119.5 s, frame_0035, frames/section_03/0011.jpg) displays neutral 'ROUND COMPLETE' header and symmetrical performer stat boxes in high-contrast white/gold typography."
+    ],
+    "visual_elements": [
+      "Continuous optical parallax during 80.0–96.0 s slowly narrows Performer B from a waist-up medium into a tight chest-up framing while keeping center-weighted headroom.",
+      "Symmetrical dual-column layout in frame_0035 (frames/section_03/0011.jpg, 116.0 s) mirrors the opening 0.0 s spatial geometry (Performer A left, Performer B right) to provide visual closure."
+    ],
+    "notable_frames": [
+      "frames/section_03/0001.jpg (frame_0025, 80.0 s): start of the 16.0 s unbroken gimbal push-in with updated counter-round badge.",
+      "frames/section_03/0004.jpg (frame_0028, 92.0 s): late point in the same continuous take showing background parallax shift relative to frame_0025.",
+      "frames/section_03/0005.jpg (frame_0029, 96.0 s): first beat-locked cutaway coinciding with instrumental entry.",
+      "frames/section_03/0011.jpg (frame_0035, 116.0 s): symmetrical split-screen end card over dimmed, defocused stage footage."
+    ],
+    "pacing_notes": "Bimodal pacing structure across 40.0 s (10 verified cuts total, 15.00 cuts/min, median shot length 2.01 s, min 1.98 s, zero burst_windows): a single 16.0 s slow-build hold followed by a metronomic 2.00 s cut grid (96.0–112.0 s) and a 5.5 s end-card hold. Audio inspection and telemetry confirm an instrumental percussion track enters at 96.00 s (~90 BPM), with 8 of 8 cuts between 96.00 s and 110.00 s landing within 0.03 s of audible every-other-bar snare/downbeat transients before audio fades out across 118.0–120.0 s."
+  }
+]
