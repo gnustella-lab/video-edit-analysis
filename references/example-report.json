@@ -1,0 +1,24 @@
+[
+  {
+    "section_summary": "Section 1, 0.0–2.0 s (end exclusive): a small blue square holds in the upper left against a black field.",
+    "color_grading": "At 0.0 and 1.0 s a saturated blue accent is the only visible color against black. The image establishes a dark reference for the next section.",
+    "editing_techniques": ["The square occupies the same position in frames/section_01/0001.jpg and frames/section_01/0002.jpg."],
+    "effects": [],
+    "transitions": [],
+    "text_overlays": [],
+    "visual_elements": ["At 0.0 s the square sits close to the top and left edges, leaving most of the frame empty."],
+    "notable_frames": ["frames/section_01/0001.jpg (0.0 s): establishes the position of the visual anchor."],
+    "pacing_notes": "The opening image holds until the cut at 2.0 s. There is no audio track to compare with the cut."
+  },
+  {
+    "section_summary": "Section 2, 2.0–4.0 s (end exclusive): a white field replaces the black field; the accent stays in place.",
+    "color_grading": "At 2.0 s the background jumps from black to white. The blue accent carries over rather than changing with the field.",
+    "editing_techniques": ["Across 1.9–2.0 s the square remains aligned. It provides a point of continuity without softening the contrast of the cut."],
+    "effects": [],
+    "transitions": ["Hard cut at 2.0 s: consecutive source frames at 1.9 and 2.0 s show black then white, without a blended frame."],
+    "text_overlays": [],
+    "visual_elements": ["frames/section_02/0001.jpg: the square has the same upper-left placement against a much brighter field."],
+    "notable_frames": ["frames/section_02/0001.jpg (2.0 s): the first white frame makes the persistent anchor easy to compare."],
+    "pacing_notes": "The cut divides two equal two-second holds. The source is silent; this is a visual rhythm, not a claim about beat alignment."
+  }
+]

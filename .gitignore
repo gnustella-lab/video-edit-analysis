@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+output/
+work/
+*.mp4
+*.log
+.DS_Store
+
+# Keep source footage and generated evidence out of the skill.
+review*/
+video_analysis/
+*.mkv
+*.mov
+*.webm
+*.avi
+*.jpg
+*.png
+probe.json
+manifest.json
+scene_times.txt
+scene_detect_raw.txt
+analysis_results.json
